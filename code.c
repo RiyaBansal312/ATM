@@ -6,6 +6,7 @@ int user_pin = 1234; // Default PIN
 
 // Function for operations in ATM Machine
 void atm_machine_transaction();
+void change_pin();
 
 int main()
 {
@@ -78,4 +79,12 @@ void atm_machine_transaction()
     default:
         printf("Invalid Option!\nPlease choose from the provided options to continue.\n");
     }
+}
+void change_pin()
+{
+    int new_pin;
+    printf("Enter your new PIN: ");
+    scanf("%d", &new_pin);
+    user_pin = new_pin;
+    printf("PIN changed successfully!\n");
 }
