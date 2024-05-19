@@ -7,6 +7,7 @@ int user_pin = 1234; // Default PIN
 // Function for operations in ATM Machine
 void atm_machine_transaction();
 void change_pin();
+void select_language();
 
 int main()
 {
@@ -88,4 +89,33 @@ void change_pin()
     scanf("%d", &new_pin);
     user_pin = new_pin;
     printf("PIN changed successfully!\n");
+}
+
+//in future we can add language selection code 
+void select_language()
+{
+    printf("Welcome to the ATM Machine\n");
+    printf("Please select your preferred language:\n");
+    printf("1. English\n");
+    printf("2. Spanish\n");
+    printf("3. French\n");
+    int language_choice;
+    printf("Your choice: ");
+    scanf("%d", &language_choice);
+    switch (language_choice)
+    {
+    case 1:
+        // English language selected, no action needed
+        break;
+    case 2:
+        // Code to set language to Spanish (if needed)
+        printf("Spanish language selected.\n");
+        break;
+    case 3:
+        // Code to set language to French (if needed)
+        printf("French language selected.\n");
+        break;
+    default:
+        printf("Invalid choice. English language selected by default.\n");
+    }
 }
