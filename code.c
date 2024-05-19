@@ -6,7 +6,9 @@ int user_pin = 1234; // Default PIN
 
 // Function for operations in ATM Machine
 void atm_machine_transaction();
+//function to change pin
 void change_pin();
+//function for language
 void select_language();
 
 int main()
@@ -30,7 +32,7 @@ void atm_machine_transaction()
         printf("Incorrect PIN. Please try again.\n");
         return;
     }
-
+//options;
     printf("\nChoices Available in the ATM Machine\n");
     printf("1. Deposit Money\n");
     printf("2. Withdraw Money\n");
@@ -88,38 +90,13 @@ void change_pin()
     printf("Enter your new PIN: ");
     scanf("%d", &new_pin);
     user_pin = new_pin;
-    printf("PIN changed successfully!\n");
+    printf("PIN changed successfully!\
+    n");
 }
 
-<<<<<<< HEAD
-//in future we can add language selection code 
-void select_language()
-{
-    printf("Welcome to the ATM Machine\n");
-    printf("Please select your preferred language:\n");
-    printf("1. English\n");
-    printf("2. Spanish\n");
-    printf("3. French\n");
-    int language_choice;
-    printf("Your choice: ");
-    scanf("%d", &language_choice);
-    switch (language_choice)
-    {
-    case 1:
-        // English language selected, no action needed
-        break;
-    case 2:
-        // Code to set language to Spanish (if needed)
-        printf("Spanish language selected.\n");
-        break;
-    case 3:
-        // Code to set language to French (if needed)
-        printf("French language selected.\n");
-        break;
-    default:
-        printf("Invalid choice. English language selected by default.\n");
-    }
-}
-=======
-// RISHABH DID SOME CHANGES!!
->>>>>>> df650fb715dcdb1520f4ea407c9194af67a6bab9
+
+
+//RITIKA DID SOME CHANGES
+//CHANGES DONE
+
+/
