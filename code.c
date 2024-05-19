@@ -91,6 +91,7 @@ void change_pin()
     printf("PIN changed successfully!\n");
 }
 
+<<<<<<< HEAD
 //in future we can add language selection code 
 void select_language()
 {
@@ -119,3 +120,6 @@ void select_language()
         printf("Invalid choice. English language selected by default.\n");
     }
 }
+=======
+// RISHABH DID SOME CHANGES!!
+>>>>>>> df650fb715dcdb1520f4ea407c9194af67a6bab9
