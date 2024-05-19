@@ -90,10 +90,13 @@ void change_pin()
     printf("Enter your new PIN: ");
     scanf("%d", &new_pin);
     user_pin = new_pin;
-    printf("PIN changed successfully!\n");
+    printf("PIN changed successfully!\
+    n");
 }
+
+
 
 //RITIKA DID SOME CHANGES
 //CHANGES DONE
 
-//committed changes
+/
