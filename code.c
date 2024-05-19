@@ -6,6 +6,7 @@ int user_pin = 1234; // Default PIN
 
 // Function for operations in ATM Machine
 void atm_machine_transaction();
+//function to change pin
 void change_pin();
 void select_language();
 
