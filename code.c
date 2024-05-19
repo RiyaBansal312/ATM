@@ -80,6 +80,7 @@ void atm_machine_transaction()
         printf("Invalid Option!\nPlease choose from the provided options to continue.\n");
     }
 }
+//added the pin changing function to the code 
 void change_pin()
 {
     int new_pin;
