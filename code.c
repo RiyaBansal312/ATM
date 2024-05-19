@@ -7,6 +7,7 @@ int user_pin = 1234; // Default PIN
 // Function for operations in ATM Machine
 void atm_machine_transaction();
 void change_pin();
+void select_language();
 
 int main()
 {
@@ -90,5 +91,3 @@ void change_pin()
     printf("PIN changed successfully!\n");
 }
 
-// RISHABH DID SOME CHANGES!!
-// RISHABH DID SOME CHANGES 2!!
