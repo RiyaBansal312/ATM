@@ -3,3 +3,4 @@
 riya bansal making changes 
 adding idea of changing pin
 adding idea of language selection 
+adding comments upon every function
