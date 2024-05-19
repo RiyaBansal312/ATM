@@ -32,7 +32,7 @@ void atm_machine_transaction()
         printf("Incorrect PIN. Please try again.\n");
         return;
     }
-
+//options;
     printf("\nChoices Available in the ATM Machine\n");
     printf("1. Deposit Money\n");
     printf("2. Withdraw Money\n");
