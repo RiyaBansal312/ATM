@@ -89,3 +89,5 @@ void change_pin()
     user_pin = new_pin;
     printf("PIN changed successfully!\n");
 }
+
+// RISHABH DID SOME CHANGES!!
