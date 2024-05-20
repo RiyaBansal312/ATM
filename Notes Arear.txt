@@ -1,0 +1,2 @@
+--This  is the Notes section for Coding Relates issues--
+1.Rishabh Added Balance Calculator
